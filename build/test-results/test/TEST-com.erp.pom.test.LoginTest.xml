@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.erp.pom.test.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-20T09:05:30" hostname="HOSQ2406101874A" time="10.017">
+  <properties/>
+  <testcase name="loginShouldSucceed" classname="com.erp.pom.test.LoginTest" time="10.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 19544
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 20, 2023 3:05:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 113, so returning the closest version found: 111
+]]></system-err>
+</testsuite>
