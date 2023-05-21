@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage extends BaseErpTest {
+public class ErpLoginPage extends BaseErpTest {
     @FindBy(css = "input#username_txt")
     WebElement usernameEl;
 
@@ -15,18 +15,18 @@ public class LoginPage extends BaseErpTest {
     @FindBy(css = "button[type*=button]")
     WebElement loginBtn;
 
-    public LoginPage() {
+    public ErpLoginPage() {
         PageFactory.initElements(driver, this);
     }
 
-    public LoginPage fillUsername(String username) {
+    public ErpLoginPage fillUsername(String username) {
         usernameEl.isDisplayed();
         usernameEl.clear();
         usernameEl.sendKeys(username);
         return this;
     }
 
-    public LoginPage fillPassword(String password) {
+    public ErpLoginPage fillPassword(String password) {
         passwordEl.isDisplayed();
         passwordEl.clear();
         passwordEl.sendKeys(password);

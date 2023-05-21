@@ -2,12 +2,12 @@ package com.erp.pom.test;
 
 import com.erp.pom.BaseErpTest;
 import com.erp.pom.pages.HomePage;
-import com.erp.pom.pages.LoginPage;
+import com.erp.pom.pages.ErpLoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LoginTest extends BaseErpTest {
-    LoginPage loginPage;
+    ErpLoginPage loginPage;
     HomePage homePage;
 
     public LoginTest() {
@@ -16,7 +16,7 @@ public class LoginTest extends BaseErpTest {
 
     @Test
     public void loginShouldSucceed() {
-        loginPage = new LoginPage();
+        loginPage = new ErpLoginPage();
         homePage = loginPage
                 .fillUsername(getUserName())
                 .fillPassword(getPassword())
